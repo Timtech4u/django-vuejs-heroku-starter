@@ -5,6 +5,9 @@ import Cookies from 'js-cookie'
 import App from './App.vue'
 import router from './router'
 
+import Buefy from 'buefy'
+
+Vue.use(Buefy)
 Vue.use(VueResource)
 
 // Set the CSRF token for AJAX provided by Django
